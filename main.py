@@ -2,6 +2,7 @@ import argparse
 import logging
 import os
 import warnings
+from pathlib import Path
 
 from modules.document import Document
 from modules.layoutdetection import LayoutDetection
@@ -47,8 +48,10 @@ def main():
 
     predictor = ld.get_predictor()
     metadata = ld.get_metadata()
-    source_dir = "./resources/doc_images/"
-    output_dir = "./output/"
+    
+    base_dir = Path(__file__).resolve().parent
+    source_dir = os.path.join(base_dir, "resources", "doc_images")
+    output_dir = os.path.join(base_dir, "output")
 
     #   language used in most of your documents (ISO 639-3 format)
     lang = "deu"  
