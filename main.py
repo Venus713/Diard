@@ -90,7 +90,7 @@ def main():
             )
 
             #   extract & export layouts
-            # doc.doc_to_images()
+            doc.doc_to_images()
             doc.extract_layouts(visualize=True, segment_sections=True)
             doc.order_layouts()
             doc.save_layouts_as_json()

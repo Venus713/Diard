@@ -13,6 +13,10 @@ shapely = "*"
 pdf2image = "*"
 tqdm = "*"
 jenkspy = "*"
+opencv-python = "*"
+pytesseract = "*"
+layoutparser = "*"
+detectron2 = {ref = "v0.5", git = "https://github.com/facebookresearch/detectron2.git"}
 
 [dev-packages]
 

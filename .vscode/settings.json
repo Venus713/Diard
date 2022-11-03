@@ -1,0 +1,8 @@
+{
+    "python.defaultInterpreterPath": "/home/userstar713/.local/share/virtualenvs/Diard-5bLEBNFp/bin/python",
+    "editor.rulers": [99],
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "python.testing.unittestEnabled": true,
+    "python.testing.pytestEnabled": true
+}
