@@ -47,7 +47,7 @@ def main():
 
     predictor = ld.get_predictor()
     metadata = ld.get_metadata()
-    source_dir = "./resources/pdfs/"
+    source_dir = "./resources/doc_images/"
     output_dir = "./output/"
 
     #   language used in most of your documents (ISO 639-3 format)
