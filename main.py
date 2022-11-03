@@ -87,11 +87,11 @@ def main():
             )
 
             #   extract & export layouts
-            doc.doc_to_images()
+            # doc.doc_to_images()
             doc.extract_layouts(visualize=True, segment_sections=True)
             doc.order_layouts()
             doc.save_layouts_as_json()
-            doc.save_layouts_as_html()
+            # doc.save_layouts_as_html()
 
         except Exception as ex:
             if not args.skip_failures:
